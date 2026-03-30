@@ -82,7 +82,7 @@ export default function Home() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 opacity-[0.06]"
         style={{
-          backgroundImage: "url(/58926.jpg)",
+          backgroundImage: "url(/globe.svg)",
           backgroundRepeat: "repeat",
           backgroundSize: "420px 420px",
         }}
