@@ -105,23 +105,15 @@ function SpotifyMark() {
 }
 
 function SoundCloudMark() {
-  // Simplified SoundCloud mark (monochrome)
+  // SoundCloud mark (SVG blanco de public)
   return (
     <Icon>
-      <svg
-        viewBox="0 0 24 24"
-        fill="currentColor"
-        className="size-4"
-        focusable="false"
-      >
-        <path d="M6.9 11.2c-.25 0-.45.2-.45.45v5.3c0 .25.2.45.45.45s.45-.2.45-.45v-5.3c0-.25-.2-.45-.45-.45Zm2.05-2.1c-.25 0-.45.2-.45.45v7.4c0 .25.2.45.45.45s.45-.2.45-.45v-7.4c0-.25-.2-.45-.45-.45Zm2.1-1.1c-.25 0-.45.2-.45.45v8.5c0 .25.2.45.45.45s.45-.2.45-.45v-8.5c0-.25-.2-.45-.45-.45Zm2.1 2.35c-.25 0-.45.2-.45.45v6.15c0 .25.2.45.45.45s.45-.2.45-.45v-6.15c0-.25-.2-.45-.45-.45Z" />
-        <path
-          fillRule="evenodd"
-          d="M14.8 9.05c.54-.33 1.18-.52 1.87-.52 1.82 0 3.3 1.48 3.3 3.3 0 1.7-1.28 3.11-2.93 3.29-.08.02-.16.03-.24.03H14.8a.75.75 0 0 1-.75-.75V9.8c0-.3.16-.57.4-.75Zm1.87.98c-.44 0-.84.11-1.2.3v3.62h1.2c.02 0 .05 0 .08-.01a1.8 1.8 0 0 0-.08-3.91Z"
-          clipRule="evenodd"
-        />
-        <path d="M5.25 13.2a.75.75 0 0 0-.75.75v2.95a.75.75 0 0 0 1.5 0v-2.95a.75.75 0 0 0-.75-.75Z" />
-      </svg>
+      <img
+        src={"/soundcloud-white.svg"}
+        alt="SoundCloud"
+        style={{ width: 22, height: 22, display: 'inline-block', verticalAlign: 'middle' }}
+        loading="lazy"
+      />
     </Icon>
   );
 }
