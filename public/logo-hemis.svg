@@ -1,0 +1,5 @@
+<!-- Logo Hemis SVG -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="currentColor">
+  <circle cx="50" cy="50" r="48" stroke="black" stroke-width="4" fill="#fff"/>
+  <text x="50" y="60" text-anchor="middle" font-size="32" font-family="monospace" fill="#000">HEMIS</text>
+</svg>

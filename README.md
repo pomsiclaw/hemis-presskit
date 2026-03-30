@@ -1,4 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# HEMIS Presskit
+
+Este proyecto es un presskit interactivo para HEMIS (DJ/Producer, Barcelona), construido con Next.js.
+
+## Características
+
+- Hero visual con logo de HEMIS (SVG) y fondo personalizado.
+- Header con carita SVG y logo.
+- SVGs organizados como archivos independientes en `public/` para mejor mantenimiento.
+- Diseño responsive y moderno.
+- Widgets embebidos de SoundCloud, Spotify y YouTube.
+
+## Estructura de imágenes
+
+- `public/logo-hemis.svg`: Logo principal de HEMIS.
+- `public/carita.svg`: Carita para el header.
+- `public/58926.jpg`: Imagen de fondo.
+
+## Uso
+
+Instala dependencias y ejecuta el servidor de desarrollo:
+
+```bash
+npm install
+npm run dev
+```
+
+Abre [http://localhost:3000](http://localhost:3000) para ver el resultado.
+
+Puedes editar la página principal en `app/page.tsx`.
+
+---
+
+Proyecto basado en Next.js. Para más detalles técnicos, consulta la [documentación de Next.js](https://nextjs.org/docs).
 
 ## Getting Started
 

@@ -1,5 +1,11 @@
 <!-- BEGIN:nextjs-agent-rules -->
-# This is NOT the Next.js you know
+# HEMIS Presskit — Notas para agentes
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
+Este proyecto Next.js utiliza imágenes SVG independientes para el logo y la carita, almacenadas en `public/`.
+
+- El hero y el header usan imágenes SVG, no texto.
+- Los SVGs deben mantenerse como archivos independientes para facilitar cambios visuales.
+- El diseño debe ser responsivo y no romperse al cambiar imágenes.
+- Consulta la guía en `node_modules/next/dist/docs/` para detalles de Next.js.
+
 <!-- END:nextjs-agent-rules -->

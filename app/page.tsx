@@ -231,13 +231,14 @@ export default function Home() {
       <header className="border-b-2 border-foreground">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between gap-6 px-6 py-5">
           <div className="flex items-baseline gap-3">
-            <span className="font-mono text-xs uppercase tracking-[0.35em]">
-              presskit
+            <span className="inline-flex items-center">
+              <img src={withBasePath("/cara%20transparente%20marmol.webp")}
+                alt="Carita mármol"
+                style={{ width: 28, height: 28, display: 'inline-block', verticalAlign: 'middle' }}
+              />
             </span>
             <Separator orientation="vertical" className="h-5 bg-foreground" />
-            <span className="font-mono text-xs uppercase tracking-[0.35em]">
-              barcelona
-            </span>
+            <span className="font-mono text-xs uppercase tracking-[0.35em]">barcelona</span>
           </div>
           <div className="flex items-center gap-2">
             <Button asChild variant="brutal" size="sm">
@@ -265,9 +266,6 @@ export default function Home() {
         <section className="grid gap-6 border-2 border-foreground p-6 md:grid-cols-12 md:gap-0 md:p-0">
           <div className="md:col-span-7 md:border-r-2 md:border-foreground md:p-10">
             <div className="flex flex-wrap items-center gap-2">
-              <Badge variant="invert" className="font-mono">
-                HEMIS
-              </Badge>
               <Badge variant="brutal" className="font-mono">
                 DJ / Producer
               </Badge>
@@ -276,16 +274,20 @@ export default function Home() {
               </Badge>
             </div>
 
-            <h1 className="mt-5 font-mono text-5xl leading-[0.95] tracking-tight md:text-7xl">
-              HEMIS
-              <br />
-              DJ / PRODUCER
+            <h1 className="mt-5 font-mono text-5xl leading-[0.95] tracking-tight md:text-7xl flex flex-col items-start gap-0">
+              <span className="sr-only">HEMIS</span>
+              <img
+                src={withBasePath("/HEMIS%20LOGO%20marmol.webp")}
+                alt="Logo Hemis mármol"
+                style={{ width: 380, height: 'auto', objectFit: 'contain', display: 'block', marginBottom: 2, maxWidth: '100%' }}
+              />
+              <span>DJ / PRODUCER</span>
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-foreground/80">
-              Remixes, edits y sets para club. Publica en{" "}
+              Remixes, edits y sets para club. Publica en{' '}
               <span className="font-semibold text-foreground">SoundCloud</span> y
-              mantiene catálogo y contenido en{" "}
+              mantiene catálogo y contenido en{' '}
               <span className="font-semibold text-foreground">Spotify</span> +
               <span className="font-semibold text-foreground">YouTube</span>.
             </p>
